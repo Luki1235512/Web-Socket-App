@@ -12,3 +12,20 @@ body {
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
+
+#table-wrapper {
+    position: relative;
+}
+
+#table-scroll {
+    height: 730px;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+#table-wrapper table {
+    width: 100%;
+}
+
+
+
