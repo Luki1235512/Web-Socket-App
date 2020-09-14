@@ -35,25 +35,26 @@
                 </div>
             </div>
             <div class="row">
+                <br>
                 <div class="col-md-6"></div>
                 <div class="col-md-6">
                     <form class="form-inline">
                         <div class="form-group">
                             <label for="message">What do you say?</label>
-                            <input type="text" id="message" class="form-control" placeholder="Say something here...">
+                            <textarea id="message" class="form-control" style="resize: vertical" placeholder="Say something here..."></textarea>
                         </div>
                         <button id="send" class="btn btn-default" type="submit">Send</button>
                     </form>
                 </div>
 
             </div>
-            <div class="row">
-                <div class="col-md-12">
+            <div class="row" id="table-wrapper">
+                <div class="col-md-12" id="table-scroll">
                     <table id="conversation" class="table table-striped">
                         <thead>
-                            <tr>
-                                <th>Greetings</th>
-                            </tr>
+                        <tr>
+                            <th>Greetings</th>
+                        </tr>
                         </thead>
                         <tbody id="greetings">
 
